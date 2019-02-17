@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'JFFlat';
+  src: url("../fonts/JF-Flat-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'JFFlat', sans-serif;
+  margin: 0;
+  padding-top: 50px;
+  background-color: #f6704b;
+}
+body * {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 380px;
+  cursor: pointer;
+}
+h1 {
+  margin: 0;
+  padding: 42px 178px 35px 110px;
+  font-size: 24px;
+  line-height: 1;
+}
+
+p {
+  font-size: 18px;
+  margin: 0;
+  padding: 18px 14px;
+  box-shadow: inset 0 0 27px -7px rgba(38,38,38,0.6);
+}
+
+.location {
+  background-color: #620808;
+  color: #ffe9c1;
+}
+
+.music {
+  background-color: #a53f3f;
+  color: #f4ce74;
+}
+
+.notes {
+  background-color: #f4ce74;
+  color: #620808;
+}
+
+.books {
+  background-color: #ffe9c1;
+  color: #a53f3f;
+}
+
+.tendence {
+  background-color: #d5441c;
+  color: #ffe9c1;
+}
+
+.location h1 {
+  background: url("../images/Location.png") 7% no-repeat;
+}
+.music h1 {
+  background: url("../images/Headphones.png") 7% no-repeat;
+}
+.notes h1 {
+  background: url("../images/Lightbulb.png") 7% no-repeat;
+}
+.books h1 {
+  background: url("../images/Bookmarks.png") 7% no-repeat;
+}
+.tendence h1 {
+  background: url("../images/Lightning.png") 7% no-repeat;
+}
